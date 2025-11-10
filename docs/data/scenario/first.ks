@@ -1,46 +1,45 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="半端ない"]
 [hidemenubutton]
 [wait time=200]
-[freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+[bg storage=pexels-pixabay-47730.jpg time=500]
 
-メロスは激怒した。[l][r]
+「サッカー高校選手権決勝...」[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+後半アディショナルタイム1-1の場面、PKを献上してしまう！[l][r]
 
-(中略)[l][r]
+[cm]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+キッカーは今大会得点王の相手エース小迫！[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+キーパーのあなたはとめられるか！[l][r]
+
+勝負の瞬間、あなたは...[l][r]
+
+[link target=*tag_sleep] →右に飛ぶ [endlink][r]
+[link target=*tag_run] →左に飛ぶ [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+ゴーール！！！[l][r]
+きめられてしまった！[r]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+[cm]
+試合後のロッカールーム[l][r]
 
-【 BAD END 】[l][cm]
+小迫はんぱないって！！[l][cm]
 
 [jump target=*start]
 
 *tag_run
 
-[bg storage=run.jpg time=500]
-
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
-
-【 GOOD END 】[l][cm]
+とめたー！！
+そのまま優勝！！おめでとう！[l][cm]
 
 [jump target=*start]
